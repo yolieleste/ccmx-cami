@@ -1,10 +1,28 @@
 /* CSS declarations go here */
-Header a.active {
-  font-weight: bold;
-  text-decoration: underline;
+.btn-block {
+  width: 100%;
 }
-Header a, #login-buttons a {
-  text-decoration: none;
-  margin-right: 10px;
-  color:inherit;
+
+
+.text-center {
+	text-align: center;
 }
+
+
+  .tabs .tab a{
+            color:#1e88e5;
+        } /*Black color to the text*/
+
+        .tabs .tab a:hover {
+            background-color:#fafafa;
+            color:#66bb6a;
+        } /*Text color on hover*/
+
+        .tabs .tab a.active {
+            background-color:#ffffff;
+            color:#1976d2;
+        } /*Background and text color when a tab is active*/
+
+        .tabs .indicator {
+            background-color:#1e88e5;
+        } /*Color of underline*/
